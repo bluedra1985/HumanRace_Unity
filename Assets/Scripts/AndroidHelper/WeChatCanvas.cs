@@ -27,7 +27,7 @@ public class WeChatCanvas : MonoBehaviour
     }
     void Start()
     {
-        button_GetMac.onClick.AddListener(GetMac);
+        //button_GetMac.onClick.AddListener(GetMac);
         button_Login.onClick.AddListener(LoginWechat);
         button_ShareText.onClick.AddListener(ShareText);
         button_ShareImage.onClick.AddListener(ShareImage);
